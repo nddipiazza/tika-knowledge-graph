@@ -120,6 +120,73 @@ This document tracks updates to the Apache Tika Knowledge Graph.
 
 ---
 
+### 2025-12-17 - Added tika-pipes and tika-grpc Documentation
+
+**Version**: 1.1.0  
+**Type**: Documentation Enhancement  
+**Author**: AI Agent
+
+#### Changes Made
+
+**New Component Documentation:**
+- ✅ **tika-pipes/overview.md**: Comprehensive Tika Pipes documentation
+  - Architecture and core concepts (Fetchers, Parsers, Emitters)
+  - Module structure and all sub-modules
+  - Configuration examples (XML and JSON)
+  - Processing modes (Async, Fork, Server)
+  - Error handling and retry logic
+  - Performance tuning guidelines
+  - Component management (new in 4.0)
+  - Integration examples
+
+- ✅ **tika-grpc/overview.md**: Complete gRPC server documentation
+  - Architecture and protocol definition
+  - All 8 RPC methods documented
+  - Security (mTLS) configuration
+  - Client examples (Python, Go, Java)
+  - Streaming examples (unary, server-side, bi-directional)
+  - Performance considerations
+  - Comparison with tika-server
+  - Troubleshooting guide
+
+#### Documentation Improvements
+
+**Tika Pipes Coverage:**
+- Fetchers: 10+ fetcher types documented
+- Emitters: 10+ emitter types documented
+- Processing modes explained
+- New dynamic configuration feature (4.0)
+- Integration with other modules
+
+**Tika gRPC Coverage:**
+- Protocol buffer definitions explained
+- All RPC methods with examples
+- Multi-language client examples
+- Security setup (mTLS)
+- Performance tuning
+- Migration guidance from tika-server
+
+#### Technical Details
+
+**Files Added**: 2
+**Lines Added**: ~1,200
+**New Concepts Documented**:
+- FetchEmitTuple pattern
+- Async processing architecture
+- Component management (runtime updates)
+- gRPC streaming patterns
+- Protocol buffer schema
+
+#### Best Practices Added
+
+- Always use relative paths from project root (not absolute paths)
+- Configuration examples in multiple formats
+- Real-world use case examples
+- Performance tuning recommendations
+- Security best practices
+
+---
+
 ## Update Template
 
 For future updates, use this template:

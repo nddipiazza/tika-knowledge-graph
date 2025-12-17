@@ -82,6 +82,7 @@ Tika follows a modular, plugin-based architecture:
 - **[tika-server](./components/tika-server/overview.md)**: REST API server
 - **[tika-app](./components/tika-app/overview.md)**: Standalone application
 - **[tika-pipes](./components/tika-pipes/overview.md)**: Async processing pipelines
+- **[tika-grpc](./components/tika-grpc/overview.md)**: gRPC API server
 
 ## Documentation Structure
 
